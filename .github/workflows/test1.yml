@@ -1,4 +1,4 @@
-name:  Print text from hellome.html
+name:  Print text from main.html
 
 on:
   push:
