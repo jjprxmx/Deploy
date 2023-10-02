@@ -1,16 +1,16 @@
 name: Print Text from main.html
- 
+
 on:
   push:
-    branches:
-      - main
+    branches:
+      - main
 jobs:
-  print-text:
-    runs-on: ubuntu-latest
- 
-    steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
- 
-    - name: Print
-      run: cat main.html
+  print-text:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Print
+      run: cat main.html
