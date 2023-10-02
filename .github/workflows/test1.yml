@@ -1,0 +1,14 @@
+name:  My workflow
+on:
+  push:
+    branches:
+      - main
+    
+jobs:  
+  build:
+    runs-on:  ubntu-latest
+
+    steps:
+
+    - name:  Prit
+      run:  echo"test"
