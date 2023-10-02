@@ -1,7 +1,7 @@
-name: Print Text from hellome.html
+name: Print Text from main.html
  
 on:
-  push:
+  push:
     branches:
       - main
 jobs:
