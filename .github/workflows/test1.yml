@@ -1,14 +1,14 @@
-name:  Print text from hello.html
+name:  Print text from hellome.html
+
 on:
   push:
     branches:
-      - main
-    
+      - main    
 jobs:  
-  build:
-    runs-on:  ubntu-latest
+  print-text:
+    runs-on:  ubuntu-latest
 
     steps:
-
+  
     - name:  Prit
       run:  echo"test"
