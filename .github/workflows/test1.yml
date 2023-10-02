@@ -1,14 +1,16 @@
-name:  Print text from main.html
-
+name: Print Text from hellome.html
+ 
 on:
-  push:
-    branches:
-      - main    
-jobs:  
-  print-text:
-    runs-on:  ubuntu-latest
-
-    steps:
-  
-    - name:  Print
-      run:  echo  "test"
+  push:
+    branches:
+      - main
+jobs:
+  print-text:
+    runs-on: ubuntu-latest
+ 
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+ 
+    - name: Print
+      run: cat main.html
