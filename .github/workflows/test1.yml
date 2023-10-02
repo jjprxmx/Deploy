@@ -1,4 +1,4 @@
-name:  Print main.html
+name:  Print text from hello.html
 on:
   push:
     branches:
